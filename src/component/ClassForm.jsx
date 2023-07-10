@@ -29,7 +29,7 @@ class ClassForm extends React.Component{
 
 	render(){
 		return (
-			<div className="w-3xl rounded-lg overflow-hidden w-2/6 shadow-xl bg-white">
+			<div className="w-3xl rounded-lg overflow-hidden w-2/6 max-w-md shadow-xl bg-white">
 				<form className="flex flex-col p-10 text-gray-900" onSubmit={this.handleSubmit}>
 					<input type="text"
 						name="name"
